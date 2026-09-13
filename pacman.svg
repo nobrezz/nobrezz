@@ -1,0 +1,80 @@
+<svg width="900" height="180" viewBox="0 0 900 180" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="180" rx="12" fill="#0d1117"/>
+
+  <g fill="none" stroke="#30363d" stroke-width="2">
+    <path d="M40 90 H860"/>
+  </g>
+
+  <g fill="#ffcc00">
+    <circle cx="80" cy="90" r="5"/>
+    <circle cx="140" cy="90" r="5"/>
+    <circle cx="200" cy="90" r="5"/>
+    <circle cx="260" cy="90" r="5"/>
+    <circle cx="320" cy="90" r="5"/>
+    <circle cx="380" cy="90" r="5"/>
+    <circle cx="440" cy="90" r="5"/>
+    <circle cx="500" cy="90" r="5"/>
+    <circle cx="560" cy="90" r="5"/>
+    <circle cx="620" cy="90" r="5"/>
+    <circle cx="680" cy="90" r="5"/>
+    <circle cx="740" cy="90" r="5"/>
+    <circle cx="800" cy="90" r="5"/>
+  </g>
+
+  <!-- Pac-Man -->
+
+  <g>
+    <path d="M80 65 A25 25 0 1 1 80 115 L105 90 Z" fill="#ffcc00">
+      <animateTransform
+        attributeName="transform"
+        type="translate"
+        from="0 0"
+        to="720 0"
+        dur="6s"
+        repeatCount="indefinite"/>
+    </path>
+
+```
+<circle cx="88" cy="78" r="3" fill="#0d1117">
+  <animateTransform
+    attributeName="transform"
+    type="translate"
+    from="0 0"
+    to="720 0"
+    dur="6s"
+    repeatCount="indefinite"/>
+</circle>
+```
+
+  </g>
+
+  <!-- Ghost 1 -->
+
+  <g fill="#ff3b3b">
+    <path d="M20 115 V85 A20 20 0 0 1 60 85 V115 L50 107 L40 115 L30 107 Z">
+      <animateTransform
+        attributeName="transform"
+        type="translate"
+        from="0 0"
+        to="720 0"
+        dur="6s"
+        repeatCount="indefinite"/>
+    </path>
+
+```
+<circle cx="32" cy="91" r="4" fill="white">
+  <animateTransform attributeName="transform" type="translate" from="0 0" to="720 0" dur="6s" repeatCount="indefinite"/>
+</circle>
+<circle cx="48" cy="91" r="4" fill="white">
+  <animateTransform attributeName="transform" type="translate" from="0 0" to="720 0" dur="6s" repeatCount="indefinite"/>
+</circle>
+```
+
+  </g>
+
+<text x="450" y="35"
+     text-anchor="middle"
+     fill="#8b949e"
+     font-family="monospace"
+     font-size="14">
+nobrezz@github:~$ ./pacman </text> </svg>
