@@ -59,3 +59,11 @@
 <p align="center">
   <img src="https://skillicons.dev/icons?i=c,java,python,postgres,linux,git,github" alt="Tech Stack" />
 </p>
+
+## CONTRIBUTION GRAPH
+
+<div align="center">
+
+<img src="./pacman.svg" alt="Pac-Man animation" width="900">
+
+</div>
